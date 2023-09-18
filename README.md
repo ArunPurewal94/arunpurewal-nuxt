@@ -28,20 +28,20 @@ My new Nuxt module for doing amazing things.
 
 ```bash
 # Using pnpm
-pnpm add -D @arunpurewal/nuxt @nuxtjs/tailwindcss
+pnpm add -D @arunpurewal/nuxt
 
 # Using yarn
-yarn add --dev @arunpurewal/nuxt @nuxtjs/tailwindcss
+yarn add --dev @arunpurewal/nuxt
 
 # Using npm
-npm install --save-dev @arunpurewal/nuxt @nuxtjs/tailwindcss
+npm install --save-dev @arunpurewal/nuxt
 ```
 
-2. Add `@arunpurewal/nuxt` + `@nuxtjs/tailwindcss` to the `modules` section of `nuxt.config.ts`
+2. Add `@arunpurewal/nuxt` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
-  modules: ["@arunpurewal/nuxt", "@nuxtjs/tailwindcss"],
+  modules: ["@arunpurewal/nuxt"],
 });
 ```
 
