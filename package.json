@@ -1,6 +1,6 @@
 {
   "name": "@arunpurewal/nuxt",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Nuxt Component Module made with TailwindCSS.",
   "repository": "https://github.com/ArunPurewal94/arunpurewal-nuxt.git",
   "license": "MIT",
@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.7.3",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "clsx": "^2.0.0",
     "vue": "^3.3.4"
   },
@@ -39,7 +40,6 @@
     "@nuxt/module-builder": "^0.5.1",
     "@nuxt/schema": "^3.7.3",
     "@nuxt/test-utils": "^3.7.3",
-    "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.17",
     "changelogen": "^0.5.5",
     "eslint": "^8.49.0",
