@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.7
+
+[compare changes](https://github.com/ArunPurewal94/arunpurewal-nuxt/compare/v1.0.6...v1.0.7)
+
+### 🏡 Chore
+
+- **release:** V1.0.6 ([2139bb1](https://github.com/ArunPurewal94/arunpurewal-nuxt/commit/2139bb1))
+
+### ❤️ Contributors
+
+- Arun <arunpurewal94@gmail.com>
+
 ## v1.0.6
 
 [compare changes](https://github.com/ArunPurewal94/arunpurewal-nuxt/compare/v1.0.5...v1.0.6)
