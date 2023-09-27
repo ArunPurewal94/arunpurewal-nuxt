@@ -1,6 +1,6 @@
 {
   "name": "@arunpurewal/nuxt",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Nuxt Component Module made with TailwindCSS.",
   "repository": "https://github.com/ArunPurewal94/arunpurewal-nuxt.git",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish --access public && git push --follow-tags --set-upstream origin master",
+    "release": "pnpm run lint && pnpm run test && pnpm run prepack && changelogen --release && npm publish --access public && git push --follow-tags --set-upstream origin master",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch"
