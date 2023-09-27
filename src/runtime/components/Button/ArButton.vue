@@ -11,7 +11,7 @@ interface Props {
     | "link"
     | "destructive";
   size?: "small" | "medium" | "large";
-  extraClasses?: string;
+  class?: string;
   onClick?: () => void;
 }
 
@@ -19,7 +19,7 @@ export default defineComponent({
   props: {
     variant: String as PropType<Props["variant"]>,
     size: String as PropType<Props["size"]>,
-    extraClasses: String as PropType<Props["extraClasses"]>,
+    class: String as PropType<Props["class"]>,
     onClick: Function as PropType<Props["onClick"]>,
   },
   setup(props) {
@@ -42,7 +42,7 @@ export default defineComponent({
       clsx(
         variantClasses[props.variant ?? "default"],
         sizeClasses[props.size ?? "medium"],
-        props.extraClasses
+        props.class
       )
     );
 

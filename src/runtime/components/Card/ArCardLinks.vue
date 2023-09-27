@@ -3,17 +3,17 @@ import { computed, defineComponent, PropType } from "vue";
 import clsx from "clsx";
 
 interface Props {
-  extraClasses?: string;
+  class?: string;
   href?: string;
 }
 
 export default defineComponent({
   props: {
-    extraClasses: String as PropType<Props["extraClasses"]>,
+    class: String as PropType<Props["class"]>,
     href: String as PropType<Props["href"]>,
   },
   setup(props) {
-    const computedClasses = computed(() => clsx(props.extraClasses));
+    const computedClasses = computed(() => clsx(props.class));
 
     return {
       computedClasses,
